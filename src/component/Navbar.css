@@ -1,0 +1,58 @@
+:root{
+    --primary-color:#63B4FF;
+}
+
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+.container{
+    background-color: var(--primary-color);
+    height: 100px;
+    border-bottom-left-radius: 16px;
+   padding-top: 1rem;
+    
+}
+
+.navbar-tab{
+    margin-right: 2rem;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding-top: 35px;
+    padding-top: 3rem;
+ 
+   
+}
+nav ul li a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+nav{
+    float: right;
+    
+}
+.heading{
+    position: absolute;
+    left: 20px;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 2rem;
+
+}
+
+.active{
+    color: rgb(39, 0, 0);
+}

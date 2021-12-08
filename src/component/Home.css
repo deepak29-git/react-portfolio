@@ -1,0 +1,49 @@
+img{
+    height: 300px;
+    width: 300px;
+}
+.grey-section{
+    margin-top: 3rem;
+    background-color: lightgrey;
+    padding: 6rem 0;
+}
+.white-section{
+    margin-top: 3rem;
+}
+.white-section{
+    margin-top: 4rem;
+    padding: 3rem 0;
+}
+.title{
+    padding-bottom: 1rem;
+}
+.primary-btn{
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #63B4FF;
+    cursor: pointer;
+    margin-top: 1rem;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.primary-btn:hover{
+    background-color: rgb(71, 163, 194);
+}
+.secondary-btn{
+    padding: 0.7rem 1.5rem;
+    border:2px solid #63B4FF;
+    background: none;
+    color: #63B4FF;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.secondary-btn:hover{
+    background-color: black;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}

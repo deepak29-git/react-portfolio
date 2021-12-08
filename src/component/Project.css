@@ -1,0 +1,19 @@
+.primary-btn{
+    margin-right: 1rem;
+}
+
+.container-fluid{
+    max-width:19rem;
+    display: block;
+    margin: auto;
+}
+
+.primary-btn a{
+    text-decoration: none;
+    color: white;
+}
+.secondary-btn a{
+    text-decoration: none;
+    color: #63B4FF;
+}
+
