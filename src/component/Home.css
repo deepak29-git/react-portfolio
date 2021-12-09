@@ -47,3 +47,10 @@ img{
     height: 50px;
     width: 50px;
 }
+
+.resume-btn .secondary-btn{
+    text-decoration: none;
+}
+.resume-btn{
+    padding-top: 2rem;
+}

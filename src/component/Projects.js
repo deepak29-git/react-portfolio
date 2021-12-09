@@ -60,7 +60,7 @@ function Projects(){
             <p>A web app using React that show travel & places emojis and give its description</p>
             <div class="container-fluid">
                 <ul class="non-bullet">
-                    <li class="primary-btn"><a target="blank" href="https://97hkc.csb.app/">Live Projects</a></li>
+                    <li class="primary-btn"><a target="blank" href="https://j3kbo.csb.app/">Live Projects</a></li>
                     <li class="secondary-btn" ><a target="blank" href="https://github.com/deepak29-git/Travel-Places-Interpreter">View Source</a></li>
                 </ul>
                 </div>

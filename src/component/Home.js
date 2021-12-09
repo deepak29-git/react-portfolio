@@ -11,8 +11,10 @@ function Home(){
     return(
         <div>
             <img src={mainImage} alt="home.svg" />
-         
             <h1>Deepak Goyal the <span style={{color:"#63B4FF"}}>web developer</span></h1>
+            <div className="resume-btn">
+            <a className="secondary-btn" href="https://drive.google.com/file/d/1yNj_jlF_o8UmFRBs2H5HvhZcWaMX665L/view?usp=sharing">Download Resume</a>
+            </div>
             <section className="grey-section">
             <img className="icon" src={technologyIcon} alt="technology.png" />
             <h2 className="title">Technologies</h2>
