@@ -1,19 +1,23 @@
-.primary-btn{
-    margin-right: 1rem;
+.primary-btn {
+  margin-right: 1rem;
 }
 
-.container-fluid{
-    max-width:19rem;
-    display: block;
-    margin: auto;
+.container-fluid {
+  max-width: 19rem;
+  display: block;
+  margin: auto;
 }
 
-.primary-btn a{
-    text-decoration: none;
-    color: white;
+.primary-btn a {
+  text-decoration: none;
+  color: white;
 }
-.secondary-btn a{
-    text-decoration: none;
-    color: #63B4FF;
+.secondary-btn a {
+  text-decoration: none;
+  color: #a5bfd8;
 }
 
+.project-details {
+  max-width: 30rem;
+  text-align: justify;
+}
