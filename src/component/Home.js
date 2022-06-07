@@ -13,7 +13,7 @@ function Home(){
             <img src={mainImage} alt="home.svg" />
             <div className='intro-container'>
             <h1>Deepak Goyal the <span style={{color:"#63B4FF"}}>web developer</span></h1>
-            <p className='project-details'>I am Front end developer. I have build five front end projects with mock backend at Neog Camp (Codding Bootcamp).I have used all the best practices in my codebase and more focus on functionality, modular code,scalable and clean code.</p>
+            <p className='project-details'>I am Front end developer. I have build five front end projects with mock backend at Neog Camp (Coding Bootcamp).In three projects-ecommerce app,video library and browser extension used my own css component library and in social media I used chakra ui for css and redux toolkit for state management.I have used all the best practices in my codebase and more focus on functionality, modular code,scalable and clean code.</p>
             </div>
             <div className="resume-btn">
             <a className="secondary-btn" href="https://drive.google.com/file/d/1L5RYHgtJFvAmv0pBBQQXCCp0zzU6CMjd/view?usp=sharing">Download Resume</a>
