@@ -1,7 +1,7 @@
 .footer{
     height: 50px;
-    background-color: black;
-    color: white;
+    background-color: var(--black-color);
+    color: var(--white-color);
     padding-top: 25px;
 }
 
@@ -14,4 +14,7 @@
 }
 .contact-heading{
     margin-top: 1rem;
+}
+.footer-content{
+    color: var(--primary-color);
 }

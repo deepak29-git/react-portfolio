@@ -1,12 +1,16 @@
 import blogImage from '../Images/blog-image.svg'
 import '../component/Blog.css'
-function Blogs(){
+function Blogs({bg}){
     return(
         <div>
-            <div className="project-image">
-            <img src={blogImage} alt="blog.svg" />
+            <div className="project-image ">
+            <img src={blogImage} alt="blog.svg" className='blog-img' />
             </div>
-            <h1>My <span style={{color:"#63B4FF"}}>Blogs</span></h1>
+            <h1>
+                <span className={`${bg==="#475569"?'border-bottom-dark':"border-bottom"}`}>
+                My <span className='page-title'>Blogs</span>
+            </span>
+                </h1>
             <section className="grey-section">
                 <h2>How to use Local Storage with React</h2>
                 <div className="small-section">
@@ -16,6 +20,7 @@ function Blogs(){
                 <a className="secondary-btn" href="https://my-blogs.hashnode.dev/how-to-use-local-storage-with-react">Read Blog</a>
                 </div>
             </section>
+            <hr />
             <section className="white-section">
                 <h2>Currying in JavaScript</h2>
                 <div className="small-section">
@@ -25,6 +30,7 @@ function Blogs(){
                 <a className="secondary-btn" href="https://my-blogs.hashnode.dev/currying-in-javascript">Read Blog</a>
                 </div>
             </section>
+            <hr />
             <section className="grey-section">
                 <h2>Everything about Promise in JavaScript</h2>
                 <div className="small-section">
@@ -34,6 +40,7 @@ function Blogs(){
                 <a className="secondary-btn" href="https://my-blogs.hashnode.dev/everything-about-promise-in-javascript">Read Blog</a>
                 </div>
             </section>
+            <hr />
             <section className="white-section">
                 <h2>Health & Fitness</h2>
                 <div className="small-section">
@@ -43,6 +50,7 @@ function Blogs(){
                 <a className="secondary-btn" href="https://my-blogs.hashnode.dev/what-are-health-and-fitness">Read Blog</a>
                 </div>
             </section>
+            <hr />
             <section className="grey-section">
                 <h2>What is Closure</h2>
                 <div className="small-section">
@@ -52,6 +60,7 @@ function Blogs(){
                 <a className="secondary-btn" href="https://my-blogs.hashnode.dev/what-is-closures">Read Blog</a>
                 </div>
             </section>
+            <hr />
             <section className="white-section">
                 <h2>What is Npm</h2>
                 <div className="small-section">

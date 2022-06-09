@@ -10,14 +10,29 @@
 
 .primary-btn a {
   text-decoration: none;
-  color: white;
+  color:var(--white-color);
 }
 .secondary-btn a {
   text-decoration: none;
-  color: #a5bfd8;
+  color: var(--primary-color);
 }
 
 .project-details {
   max-width: 30rem;
   text-align: justify;
+  padding: 0 1rem;
+  line-height: 1.5rem;
+}
+
+.page-title{
+  color:var(--primary-color);
+}
+.border-bottom{
+  border-bottom: 2px solid var(--black-color);
+  padding-bottom: 0.5rem;
+}
+
+.border-bottom-dark{
+  border-bottom: 2px solid var(--white-color);
+  padding-bottom: 0.5rem;
 }

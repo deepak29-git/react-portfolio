@@ -1,29 +1,38 @@
-:root{
-    --primary-color:#63B4FF;
-}
 
-*{
-    margin: 0;
-    padding:0;
-
-}
 
 .container{
-    background-color: var(--primary-color);
     height: 100px;
     border-bottom-left-radius: 16px;
    padding-top: 1rem;
+   padding-bottom: 1rem;
     
+}
+
+.title-cotainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dark-mode-icon{
+    margin-right: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
 }
 
 .navbar-tab{
     margin-right: 2rem;
     padding-left: 10px;
-    color: white;
     text-decoration: none;
     font-size: 25px;
+    color: var(--black-color);
 }
-
+.nav-darkmode-tab{
+    margin-right: 2rem;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--white-color);
+}
 ul{
     display: flex;
 }
@@ -36,7 +45,7 @@ ul li{
    
 }
 nav ul li a:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--primary-color);
     padding-bottom: 0.5rem;
 }
 
@@ -48,11 +57,17 @@ nav{
     position: absolute;
     left: 20px;
     font-size: 30px;
-    color: white;
     padding-bottom: 2rem;
+    color: var(--black-color);
 
 }
-
+.white-heading{
+    position: absolute;
+    left: 20px;
+    font-size: 30px;
+    padding-bottom: 2rem;
+    color: var(--white-color);
+}
 .active{
-    color: rgb(39, 0, 0);
+    color: var(--primary-color);
 }

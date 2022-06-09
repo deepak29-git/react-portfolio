@@ -1,15 +1,18 @@
 import projectImage from "../Images/project-image.svg";
 import "../component/Project.css";
 
-function Projects() {
+function Projects({bg}) {
   return (
     <div>
       <div className="project-image">
         <img src={projectImage} alt="projects.svg" />
       </div>
-      <h1>
-        My <span style={{ color: "#63B4FF" }}>Projects</span>
+      <h1 >
+        <span className={`${bg==="#475569"?'border-bottom-dark':'border-bottom'}`}>
+        My <span className="page-title">Projects</span>
+        </span>
       </h1>
+      
       <section className="grey-section">
         <h2 className="title">Ecommerce Application</h2>
         <small>Feb,2022</small>
@@ -35,6 +38,7 @@ function Projects() {
           </ul>
         </div>
       </section>
+      <hr />
       <section className="white-section">
         <h2 className="title">Video Library</h2>
         <small>Feb,2022</small>
@@ -60,6 +64,7 @@ function Projects() {
           </ul>
         </div>
       </section>
+      <hr />
       <section className="grey-section">
         <h2 className="title">Component Library</h2>
         <small>Jan,2022</small>
@@ -85,6 +90,7 @@ function Projects() {
           </ul>
         </div>
       </section>
+      <hr />
       <section className="white-section">
         <h2 className="title">Social Media</h2>
         <small>May,2022</small>
@@ -112,6 +118,7 @@ function Projects() {
           </ul>
         </div>
       </section>
+      <hr />
       <section className="grey-section">
         <h2 className="title">Browser Extension</h2>
         <small>Apr,2022</small>
@@ -138,7 +145,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="grey-section">
+      <hr />
+      <section className="white-section">
         <h2 className="title">Movie Trailer App</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -166,7 +174,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="white-section">
+      <hr />
+      <section className="grey-section">
         <h2 className="title">Movie Booking App</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -191,7 +200,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="grey-section">
+      <hr />
+      <section className="white-section">
         <h2 className="title">Stock Profit & Loss Calculator App</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -219,7 +229,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="white-section">
+      <hr />
+      <section className="grey-section">
         <h2 className="title">Palindrome Birthday App</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -248,7 +259,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="grey-section">
+      <hr />
+      <section className="white-section">
         <h2 className="title">Fun With Triangle App</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -276,7 +288,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="white-section">
+      <hr />
+      <section className="grey-section">
         <h2 className="title">Birthday Lucky App</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -301,7 +314,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="grey-section">
+      <hr />
+      <section className="white-section">
         <h2 className="title">Cash Register App</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -329,7 +343,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="white-section">
+      <hr />
+      <section className="grey-section">
         <h2 className="title">Travel & Places Emoji Interpreter</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -352,8 +367,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-
-      <section className="grey-section">
+      <hr />
+      <section className="white-section">
         <h2 className="title">Music Rating App</h2>
         <small>Dec,2021</small>
         <p className="project-details">A web app using React which show ratings of favorite music</p>
@@ -370,7 +385,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="white-section">
+      <hr />
+      <section className="grey-section">
         <h2 className="title">Ebonics Translator</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -395,8 +411,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-
-      <section className="grey-section">
+      <hr />
+      <section className="white-section">
         <h2 className="title">Banana Talks</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -424,7 +440,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <section className="white-section">
+      <hr />
+      <section className="grey-section">
         <h2 className="title">The Great Ramayan Quiz</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -451,8 +468,8 @@ function Projects() {
           </ul>
         </div>
       </section>
-
-      <section className="grey-section">
+      <hr />
+      <section className="white-section">
         <h2 className="title">how well do you know me?</h2>
         <small>Dec,2021</small>
         <p className="project-details">
@@ -480,7 +497,6 @@ function Projects() {
           </ul>
         </div>
       </section>
-
       <hr />
     </div>
   );
