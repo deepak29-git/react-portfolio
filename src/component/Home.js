@@ -16,7 +16,7 @@ function Home(){
             <p className='project-details plr-1'>I am Front end developer. I have build five front end projects with mock backend at Neog Camp (Coding Bootcamp).In three projects-ecommerce app,video library and browser extension used my own css component library and in social media I used chakra ui for css and redux toolkit for state management.I have used all the best practices in my codebase and more focus on functionality, modular code,scalable and clean code.</p>
             </div>
             <div className="resume-btn">
-            <a className="secondary-btn" href="https://drive.google.com/file/d/1tLYWpKhJIHFqiaXvbjhk0zC9DLaBFswX/view?usp=sharing">Download Resume</a>
+            <a className="primary-btn none" href="https://drive.google.com/file/d/1tLYWpKhJIHFqiaXvbjhk0zC9DLaBFswX/view?usp=sharing">Download Resume</a>
             </div>
             <hr style={{marginTop:"3rem"}}/>
             <section className="grey-section">
@@ -36,7 +36,7 @@ function Home(){
                 <img className="icon" src={blogIcon} alt="blog.png" />
             <h2 className="title">Blogs</h2>
             <p className='project-details'>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
-            <button onClick={()=>navigate('/blogs')} className="secondary-btn">Read Blogs</button>
+            <button onClick={()=>navigate('/blogs')} className="primary-btn none">Read Blogs</button>
             </section>
             
             <hr/>

@@ -55,3 +55,7 @@ img {
   flex-direction: column;
   align-items: center;
 }
+
+.none{
+  text-decoration: none;
+}
